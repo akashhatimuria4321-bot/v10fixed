@@ -1,0 +1,42 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# JARVIS OMEGA V11 — requirements.txt
+# Python 3.14.5 compatible — 100% FREE, No API Keys
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── Core GUI ─────────────────────────────────────────────────────────────────
+PyQt6>=6.4.0
+
+# ── HTTP (for Ollama calls + web search) ─────────────────────────────────────
+requests>=2.28.0
+
+# ── Speech Recognition (FREE — Google STT, no key needed) ────────────────────
+SpeechRecognition>=3.10.0
+
+# ── Audio recording & playback (Python 3.14 compatible — replaces PyAudio) ───
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# ── TTS (Text to Speech) ─────────────────────────────────────────────────────
+edge-tts>=6.1.9
+pyttsx3>=2.90
+
+# ── Computer Control ─────────────────────────────────────────────────────────
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+psutil>=5.9.0
+keyboard>=0.13.5
+
+# ── Screen Vision & OCR ──────────────────────────────────────────────────────
+Pillow>=9.5.0
+pytesseract>=0.3.10
+mss>=9.0.0
+
+# ── Web Search (FREE — DuckDuckGo, no API key) ────────────────────────────────
+duckduckgo-search>=3.9.0
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+colorama>=0.4.6
+
+# ── OPTIONAL: Local Whisper (offline STT — ~150MB download) ──────────────────
+# Uncomment if you want offline speech recognition:
+# openai-whisper>=20231117

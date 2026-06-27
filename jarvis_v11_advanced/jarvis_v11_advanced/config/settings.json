@@ -1,0 +1,36 @@
+{
+  "user_name": "Sir",
+  "ai_name": "JARVIS",
+  "tts_voice": "en-IN-PrabhatNeural",
+  "tts_edge_rate": "+5%",
+  "tts_edge_pitch": "+0Hz",
+  "tts_rate": 185,
+  "hinglish_display_mode": true,
+  "hinglish_speak_mode": true,
+  "hindi_speak_mode": false,
+  "stt_language": "hi-en",
+  "stt_fallback_langs": ["hi-IN", "en-IN", "en-US"],
+  "whisper_model": "base",
+  "offline_mode": true,
+  "ollama_url": "http://localhost:11434",
+  "V11_MODELS": {
+    "chat": "llama3.2",
+    "vision": "qwen3-vl:2b",
+    "code": "deepseek-coder:1.3b",
+    "reasoning": "qwen3-vl:2b",
+    "fast": "phi3:3.8b",
+    "creative": "qwen3.5:4b"
+  },
+  "V11_FEATURES": {
+    "computer_control_enabled": true,
+    "vision_enabled": true,
+    "learning_enabled": true,
+    "web_search_enabled": true,
+    "esc_orb_mode": true,
+    "esc_orb_size": 40,
+    "auto_minimize": true,
+    "context_awareness": true,
+    "fast_mode": true,
+    "safety_confirm_destructive": true
+  }
+}
